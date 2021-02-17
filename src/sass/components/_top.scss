@@ -127,6 +127,7 @@
       background-image: url($logo-path);
       background-repeat: no-repeat;
       background-position: $logo-position-horizontal $logo-position-vertical;
+      background-size: auto 80%;
 
       @if $use-retina-logo {
         @include img-retina("../images/logo/logo@2x.png", $logo-image-width, $logo-image-height);
